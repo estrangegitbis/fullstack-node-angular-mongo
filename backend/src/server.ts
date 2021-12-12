@@ -17,8 +17,6 @@ const normalizePort = (val: any): any => {
 
 const port = normalizePort(process.env.SERVER_PORT || '8080');
 
-app.set('port', port);
-
 const server = createServer(app);
 
 const errorHandler = (error: NodeJS.ErrnoException): void => {

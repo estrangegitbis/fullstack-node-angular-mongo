@@ -5,7 +5,8 @@
   "main": "server.js",
   "nodemonConfig": {
     "watch": [
-      "src"
+      "src",
+      ".env"
     ],
     "ext": ".ts,.js,.ejs,.css",
     "ignore": [],
