@@ -34,4 +34,4 @@ ThingSchema.statics.build = (attrs: ThingAttrs) => {
 
 const Thing = mongoose.model<ThingDoc, ThingModel>('Thing', ThingSchema);
 
-export { Thing };
+export default Thing;
